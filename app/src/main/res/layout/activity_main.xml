@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lwc="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<com.example.administrator.customtoolbarmodel.CustomToolBar
+    android:layout_width="match_parent"
+    lwc:leftBackGround="@drawable/backcolor"
+    lwc:leftText="返回"
+    lwc:titleText="消息"
+    android:id="@+id/toolBar"
+    lwc:titleSize="10sp"
+    lwc:leftTextColor="@color/colorPrimary"
+    lwc:rightText="提交"
+    lwc:rightTextColor="@color/colorPrimary"
+    lwc:rightBackGround="@drawable/commmitcolor"
+    android:layout_height="60dp">
+
+</com.example.administrator.customtoolbarmodel.CustomToolBar>
+
+
+
+
+
+
+
+</LinearLayout>

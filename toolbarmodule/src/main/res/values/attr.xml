@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="toolbar">
+        <attr name="titleSize" format="float"/>
+        <attr name="titleText" format="string"/>
+        <attr name="titleColor" format="color"/>
+        
+        <attr name="leftBackGround" format="color|reference"></attr>
+        <attr name="leftTextSize" format="float"></attr>
+        <attr name="leftText" format="string"></attr>
+        
+        <attr name="rightBackGround" format="color|reference"></attr>
+        <attr name="rightTextSize" format="float"></attr>
+        <attr name="rightText" format="string"></attr>
+    </declare-styleable>
+    
+    
+    
+</resources>

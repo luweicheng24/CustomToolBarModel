@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomToolBar">
+        <attr name="titleText" format="string"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleColor" format="color"/>
+        
+        <attr name="leftTextColor" format="color|reference"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftBackGround" format="color|reference"/>
+
+        <attr name="rightTextColor" format="color|reference"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightBackGround" format="color|reference"/>
+        
+    </declare-styleable>
+    
+</resources>
